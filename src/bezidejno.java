@@ -7,6 +7,15 @@ public class bezidejno {
 
 	public void ispisiNeparneBrojeve(int a) {
 
+		for (int i = 0; i < a; i++) {
+
+			if (i % 2 != 0) {
+
+				System.out.println(i);
+			}
+
+		}
+
 	}
 
 	public void ispisiPrimeBrojeve(int a) {
