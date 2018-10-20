@@ -12,8 +12,8 @@ public class bezidejno {
 	public void ispisiPrimeBrojeve(int a) {
 
 		boolean prime=false;
-		for(int i=2; i<=100; i++) {
-			for(int j=2; j<100; j++) {
+		for(int i=2; i<=a; i++) {
+			for(int j=2; j<a; j++) {
 				if(i%j==0 && i!=j) {
 					prime=false;
 					break;
